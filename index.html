@@ -7,18 +7,31 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Navigation -->
+  <!-- Header / Navigation -->
   <header>
-    <nav>
-      <a href="index.html" class="logo">
-        <img src="assets/logo.png" alt="AeriAll Spray & Survey Logo">
-      </a>
-      <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <nav class="navbar">
+      <!-- Left: Logo -->
+      <div class="nav-left">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.png" alt="AeriAll Spray & Survey Logo">
+        </a>
+      </div>
+      <!-- Center: Navigation Menu -->
+      <div class="nav-center">
+        <ul class="nav-menu">
+          <li><a href="sales.html">Sales</a></li>
+          <li><a href="parts-service.html">Parts/Service</a></li>
+          <li><a href="regulations.html">Regulations</a></li>
+          <li><a href="custom-application.html">Custom Application</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <!-- Right: Call Info and Search Bar -->
+      <div class="nav-right">
+        <span class="call-info">Call: 763-592-9320</span>
+        <input type="text" class="search-bar" placeholder="Search...">
+      </div>
     </nav>
   </header>
 
@@ -29,24 +42,61 @@
       Your browser does not support the video tag.
     </video>
     <div class="hero-content">
-      <h1>Welcome to AeriAll Spray & Survey, LLC</h1>
-      <p>Your premier industry standard drone dealer with the best products, service, and support.</p>
-      <a href="contact.html" class="cta-button">Get in Touch</a>
+      <h1>Welcome to AeriAll</h1>
+      <p>Your premier industry standard drone dealer with unmatched service &amp; support.</p>
+      <a href="contact.html" class="cta-button">Schedule a Free Demo</a>
     </div>
   </section>
 
-  <!-- Main Content Section -->
+  <!-- Main Content -->
   <main>
+    <!-- Intro / About Section -->
     <section id="intro">
-      <h2>About Our Drone Solutions</h2>
-      <p>We are leading the industry with high-quality drones, innovative spray technology, and expert support.</p>
+      <div class="intro-image">
+        <!-- Place an image or icon here if needed -->
+      </div>
+      <div class="intro-text">
+        <h2>About Our Drone Solutions</h2>
+        <p>
+          We provide state-of-the-art drone technology and services tailored for your agricultural needs.
+          Discover how our innovative approach sets us apart in the industry.
+        </p>
+      </div>
     </section>
-    <!-- Additional sections can be added here -->
+
+    <!-- Featured Drone Solutions Section -->
+    <section id="featured">
+      <h2>Featured Drone Solutions</h2>
+      <div class="featured-content">
+        <!-- Example Feature Item -->
+        <div class="feature-item">
+          <img src="assets/drone1.jpg" alt="Drone 1">
+          <p>High performance sales and service solutions.</p>
+        </div>
+        <div class="feature-item">
+          <img src="assets/drone2.jpg" alt="Drone 2">
+          <p>Custom application options for diverse needs.</p>
+        </div>
+        <!-- Add more feature items as necessary -->
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 AeriAll Spray & Survey, LLC. All rights reserved.</p>
+    <div class="footer-content">
+      <div class="social-media">
+        <!-- Add your social media icons/links here -->
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+      </div>
+      <div class="maps-link">
+        <a href="https://maps.google.com/?q=Your+Location" target="_blank">Google Maps</a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 AeriAll Spray & Survey, LLC. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
   <script src="js/script.js"></script>
