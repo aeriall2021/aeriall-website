@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | AeriAll Spray & Survey, LLC</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-575D2G20S9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'YOUR_TRACKING_ID');
+</script>
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <!-- Left: Logo -->
+      <div class="nav-left">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.png" alt="AeriAll Spray & Survey Logo">
+        </a>
+      </div>
+      <!-- Center: Navigation Menu -->
+      <div class="nav-center">
+        <ul class="nav-menu">
+          <li><a href="sales.html">Sales</a></li>
+          <li><a href="parts-service.html">Parts/Service</a></li>
+          <li><a href="regulations.html">Regulations</a></li>
+          <li><a href="custom-application.html">Custom Application</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <!-- Right: Call Info and Search Bar -->
+      <div class="nav-right">
+        <span class="call-info">Call: 763-592-9320</span>
+        <input type="text" class="search-bar" placeholder="Search...">
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content: Contact Section -->
+  <main>
+    <section id="contact" style="padding: 50px 30px; text-align: center;">
+      <h1>Contact Us</h1>
+      <p>Please fill out the form below to get in touch with us.</p>
+      <form id="contact-form" action="https://formspree.io/f/mjkgeppq" method="POST">
+        <div>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <br>
+        <div>
+          <label for="message">What drone or service are you interested in?</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="checkbox" id="robotCheck" name="robotCheck" required>
+          <label for="robotCheck">I am not a robot</label>
+        </div>
+        <br>
+        <div>
+          <button type="submit" class="cta-button">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="social-media">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+      </div>
+      <div class="maps-link">
+        <a href="https://maps.google.com/?q=Your+Location" target="_blank">Google Maps</a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 AeriAll Spray & Survey, LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
