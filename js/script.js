@@ -7,3 +7,17 @@ window.addEventListener('scroll', function() {
     }
   });
   
+  // Conditional behavior for the header call/contact link
+  window.addEventListener('load', function() {
+    const callLink = document.getElementById("call-link");
+    if (callLink) {
+      if (window.innerWidth <= 768) {
+        callLink.href = "tel:7635929320";
+        callLink.textContent = "Call Us: 763-592-9320";
+      } else {
+        callLink.href = "contact.html";
+        callLink.textContent = "Contact Us: 763-592-9320";
+      }
+    }
+  });
+  
